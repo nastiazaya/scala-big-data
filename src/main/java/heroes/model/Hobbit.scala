@@ -1,4 +1,4 @@
-package heroes
+package heroes.model
 
 class Hobbit extends Hero {
   override var power: Int = 0

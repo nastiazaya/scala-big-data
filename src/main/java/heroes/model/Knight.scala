@@ -1,4 +1,6 @@
-package heroes
+package heroes.model
+
+import heroes.util.RandomUtil
 
 class Knight extends Hero {
   override var power: Int = RandomUtil.between(2,12)

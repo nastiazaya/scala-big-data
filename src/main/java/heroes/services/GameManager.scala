@@ -1,5 +1,7 @@
-package heroes
+package heroes.services
 
+import heroes.infra.GameLogger
+import heroes.model.Hero
 
 object GameManager {
 

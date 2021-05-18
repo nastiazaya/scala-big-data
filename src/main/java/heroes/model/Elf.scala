@@ -1,4 +1,4 @@
-package heroes
+package heroes.model
 
 class Elf extends Hero {
   override var power: Int = 10

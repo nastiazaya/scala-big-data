@@ -1,5 +1,8 @@
 package heroes
 
+import heroes.infra.HeroFactory
+import heroes.services.GameManager
+
 object Main {
   def main(args: Array[String]): Unit = {
     val hero1 = HeroFactory.getRandomHero
